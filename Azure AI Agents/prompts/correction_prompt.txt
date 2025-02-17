@@ -1,0 +1,13 @@
+${schema_prompt}
+Given the following question, query, and kql error, fix the query.
+{
+        'Question': ${question},
+        'Query': ${query},
+        'KQL Error': ${sql_error_message}
+}
+
+Return your answer ONLY in JSON format as follows:
+{
+    'explanation': '<explain what the query does>',
+    'query': '<kql query>'
+}

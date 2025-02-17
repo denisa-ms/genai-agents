@@ -1,0 +1,9 @@
+${schema_prompt}
+Below is a question, KQL query, explanation, and the result from executing the query. 
+Use these pieces of information to answer the question.
+{
+    'question': ${question},
+    'query': ${query},
+    'explanation': ${explanation},
+    'result': ${result}
+}

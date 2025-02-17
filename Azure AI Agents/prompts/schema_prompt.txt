@@ -1,0 +1,4 @@
+Below is the information for a KQL table.
+Schema:
+${tbl_creation_kql}
+------------------------------------------------------
