@@ -1,0 +1,40 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Snowfall API",
+      "version": "1.0.0"
+    },
+    "paths": {
+      "/snow": {
+        "get": {
+          "summary": "Get snowfall information",
+          "parameters": [
+            {
+              "name": "location",
+              "in": "query",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "location": {"type": "string"},
+                      "snow": {"type": "string"}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
