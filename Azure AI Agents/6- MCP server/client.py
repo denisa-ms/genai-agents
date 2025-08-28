@@ -68,7 +68,7 @@ async def chat_loop(session):
 
     # Create the agent
     agent = agents_client.create_agent(
-        model=model_deployment,
+        model=AIFOUNDRY_AGENT_MODEL_DEPLOYMENT_NAME,
         name="inventory-agent",
         instructions="""
         You are an inventory assistant. Here are some general guidelines:
