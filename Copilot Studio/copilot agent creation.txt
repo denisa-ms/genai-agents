@@ -1,0 +1,1 @@
+We own a pizza shop called Donatello Pizza, we want to build an agent to handle new customers orders. Customers chooses the type of base, cheese and toppings. The order is then emailed to the chef.
